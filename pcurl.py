@@ -59,16 +59,3 @@ finally:
 	c.close()
 	file.close()
 	remove("content.xml")
-
-"""
-	http://pycurl.io/docs/latest/curlobject.html
-	https://stackoverflow.com/questions/43424677/http-error-411-the-request-must-be-chunked-or-have-a-content-length
-	https://stackoverflow.com/questions/8332643/pycurl-and-ssl-cert
-	https://stackoverflow.com/questions/872844/pycurl-returntransfer-option-doesnt-exist
-	https://developers.sw.com.mx/knowledge-base/servicio-publico-de-consulta-estatus-cfdi-sat/
-	https://tar.mx/archivo/2018/validar-folio-fiscal-cfdi-con-php-directo-del-sat-2018.html
-	https://es.stackoverflow.com/questions/182229/problema-para-extraer-atributo-con-un-valor-espec%C3%ADfico-de-un-xml-usando-python
-	https://lxml.de/xpathxslt.html#the-xpath-method
-	https://docs.python.org/3/library/xml.etree.elementtree.html
-	https://stackoverflow.com/questions/24038744/namespace-error-lxml-xpath-python
-"""
